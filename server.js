@@ -1,4 +1,4 @@
-const PORT = process.env.PORT;
+// const PORT = process.env.PORT;
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -70,6 +70,6 @@ app.post('/imageurl', (req, res) => {
 
 
 
-app.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}!`)
+app.listen(procces.env.PORT, () => {
+    console.log(`Listening on port ${process.env.PORT}!`)
 })
