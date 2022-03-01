@@ -70,6 +70,6 @@ app.post('/imageurl', (req, res) => {
 
 
 
-app.listen(procces.env.PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Listening on port ${process.env.PORT}!`)
 })
