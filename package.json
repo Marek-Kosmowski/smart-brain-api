@@ -4,7 +4,7 @@
   "description": "FaceRecognition API",
   "main": "index.js",
   "scripts": {
-    "start": "server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "MKosmowski",
@@ -17,5 +17,8 @@
     "express": "^4.17.2",
     "knex": "^1.0.3",
     "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
